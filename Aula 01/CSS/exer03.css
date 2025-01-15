@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+hr{
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 2vh;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+#projects{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-collapse: collapse;
+    max-width: 800px;
+    width: 100%;
+}
+
+#projects td, #projects th{
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+#projects tr:nth-child(even){
+
+    background-color: #e1e1e1;
+}
+
+#projects tr:hover{
+    background-color: #294362cf;
+    color: white;
+    cursor: crosshair;
+    transition: all 100ms linear;
+}
+
+a{
+    color: #06133ccf;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#projects th{
+    height: 30px;
+    text-align: left;
+    background-color: rgb(8, 47, 110);
+    color: white;
+}
+
+form{
+    background-color: rgb(8, 47, 110);
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-self: left;
+}
+
+label{
+    font-size: 18px;
+    line-height: 5px;
+    margin-bottom: -5px;
+    margin-left: 12px;
+}
+input, button{
+    padding: 10px;
+    border-radius: 999px;
+    border: none;
+}
+input{
+    padding-left: 14px;
+}
+button{
+    background-color: #00014fcf;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    opacity: 0.7;
+    transition: all 200ms linear;
+}
+button:hover{
+    transition: all 200ms linear;
+    cursor: pointer;
+    opacity: 1;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+input::placeholder{
+    padding-left: 1px;
+}
+
+.btn{
+    width: 100px;
+    font-size: 16px;
+}
+
+.wrap-img-p{
+    display: flex;
+    gap: 20px;
+    justify-content: left;
+    align-items: center;
+}
+
+.img-style{
+    width: 100px;
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+p{
+    color: rgb(2, 58, 118);
+    font-weight: bold;
+    font-family: cursive;
+    line-height: 18px;
+}
+
+h1, h2{
+    color: rgb(2, 17, 29);
+}

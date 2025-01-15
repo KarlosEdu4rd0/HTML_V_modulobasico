@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minha primeira pagina</title>
+    <style>
+        .alinhamento{
+           display: flex;
+           align-items: center;
+           flex-direction: column;
+        }
+        .btn:hover{
+            cursor: pointer;
+            background-color:black;
+            color: white;
+        }
+    </style>
+  </head>
+  <body>
+    <h1 style="color: rgb(0, 208, 255)">Bem vindos ao HTML!</h1>
+    <p>Esta é minha primeira página usando HTML.</p>
+    <br />
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod provident
+      necessitatibus modi assumenda vitae doloremque a odio aliquam cumque
+      natus. Et deserunt accusamus sint voluptatem esse ea hic non molestias.
+    </p>
+    <hr />
+    <!--Batata-->
+    <!-- Este é um comentário -->
+    <!-- <p>Os comentarios nao aparecem</p> -->
+    <p>Parte de comentarios</p>
+    <hr />
+    <!-- Formatação de texto -->
+    <p><b>Alguma</b> frase <i>importante</i> <u>para vocês.</u></p>
+    <p>Alguma frase importante para vocês.</p>
+    <hr />
+    <!-- Listas -->
+    <ul>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+      <li>Food</li>
+    </ul>
+    <ol>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+      <li>Milk</li>
+      <li>Milk</li>
+      <li>Milk</li>
+      <li>Milk</li>
+      <li>Milk</li>
+    </ol>
+    <ul style="list-style: none">
+      <li>Item da lista 01</li>
+      <li>Item da lista 02</li>
+      <li>Item da lista 03</li>
+      <li>Item da lista 04</li>
+      <li>Item da lista 05</li>
+      <li>Item da lista 06</li>
+      <li>Item da lista 07</li>
+      <li>Item da lista 08</li>
+      <li>Item da lista 09</li>
+      <li>Item da lista 010</li>
+    </ul>
+    <ol style="list-style: none">
+      <li>Item da lista 01</li>
+      <li>Item da lista 02</li>
+      <li>Item da lista 03</li>
+      <li>Item da lista 04</li>
+      <li>Item da lista 05</li>
+      <li>Item da lista 06</li>
+      <li>Item da lista 07</li>
+      <li>Item da lista 08</li>
+      <li>Item da lista 09</li>
+      <li>Item da lista 010</li>
+    </ol>
+    <hr />
+    <div style="background-color: #d57a2a; color: #ffffff">
+      <h2>Subtítulo muito bacana</h2>
+      <p>Alguma frase muito legal.</p>
+      <p>Alguma coisa</p>
+    </div>
+    <hr />
+    <!-- Links -->
+    <a href="https://www.amordoce.com/high-school-life" target="_blank">Visite esta página</a
+    ><br /><br />
+    <a href="https://www.amordoce-newgen.com/home">Visite esta também</a>
+    <hr />
+    <!-- Imagens -->
+    <img
+      src="https://pt.quizur.com/_image?href=https://img.quizur.com/f/img653ee004763d46.96762775.png?lastEdited=1698619399&w=1024&h=1024&f=webp"
+      alt="Sailor Venus"
+      width="500px"
+      height="auto"
+    />
+    <br />
+    <img
+      src="./Imagens/sailor01.jpg"
+      alt="Sailor"
+      width="auto"
+      height="300px"
+    /><br />
+    <img
+      src="./Imagens/shinobu01.jpg"
+      alt="Shinobu"
+      width="auto"
+      height="200px"
+      style="border-radius: 100%"
+    />
+    <br />
+    <img src="./Imagens/elaine01.jpg" alt="elaine" width="150px" height="auto" />
+    <hr />
+    <!-- Tag generica  -->
+    <p style="background-color: bisque">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo temporibus a
+      incidunt?
+      <span style="color: red">
+        Amet necessitatibus sunt minus quos repellat magnam</span
+      >
+      libero perspiciatis officia voluptatibus eaque ratione rem in tempore,
+      facere fugit!
+    </p>
+    <h1>
+      Batata no almoço é <span style="text-decoration: underline">padrão</span>
+    </h1>
+    <hr />
+    <!-- Tabelas  -->
+    <table border="1">
+      <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+      </tr>
+      <tr>
+        <td>Senai 2</td>
+        <td>(41)3030-0330</td>
+        <td>Brasil</td>
+      </tr>
+      <tr>
+        <td>Senai 3</td>
+        <td>(41)3030-0330</td>
+        <td>Brasil</td>
+      </tr>
+      <tr>
+        <td>Senai 4</td>
+        <td>(41)3030-0330</td>
+        <td>Brasil</td>
+      </tr>
+      <tr>
+        <td>Senai 5</td>
+        <td>(41)3030-0330</td>
+        <td>Brasil</td>
+      </tr>
+    </table>
+    <hr />
+    <form action="">
+      <label for="nome">Nome</label><br />
+      <input type="text" id="nome" placeholder="Insira seu nome" /><br />
+      <label for="tel">Telefone</label><br />
+      <input type="number" id="tel" placeholder="Insira seu telefone" />
+      <br />
+      <label for="data">Data do envio</label><br />
+      <input type="date" id="data" /><br />
+      <br />
+      <button type="submit">Enviar</button>
+    </form>
+    <hr />
+    <input type="button" /><br />
+    <input type="checkbox" /><br />
+    <input type="color" /><br />
+    <input type="date" /><br />
+    <input type="datetime-local" /><br />
+    <input type="email" /><br />
+    <input type="file" /><br />
+    <input type="hidden" /><br />
+    <input type="image" /><br />
+    <input type="month" /><br />
+    <input type="number" /><br />
+    <input type="password" /><br />
+    <input type="radio" /><br />
+    <input type="range" /><br />
+    <input type="reset" /><br />
+    <input type="search" /><br />
+    <input type="submit" /><br />
+    <input type="tel" /><br />
+    <input type="text" /><br />
+    <input type="time" /><br />
+    <input type="url" /><br />
+    <input type="week" /><br />
+    <hr />
+
+    <iframe
+      src="https://www.youtube.com/embed/9nbYJm9FYa0?si=993MbzWzO7anK4Gt"
+      frameborder="0"
+    ></iframe
+
+    ><br />
+
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/9nbYJm9FYa0?si=993MbzWzO7anK4Gt"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+      ></iframe>
+      <hr>
+      <section class="alinhamento">
+          <h2>Exercicios</h2>
+          <div>
+              <button onclick="window.location.href='./exer01.html'" class="btn">Primeiro</button>
+              <button onclick="window.location.href='./exer02.html'" class="btn">Segundo</button>
+              <button onclick="window.location.href='./exer03.html'" class="btn">Terceiro</button>
+            </div>
+      </section>
+  </body>
+</html>
