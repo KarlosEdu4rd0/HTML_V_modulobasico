@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 100% da altura da tela */
+    margin: 0; /* Remove margens do body */
+    font-family: Arial, sans-serif;
+    background: url('./Images/fundo01.jpg') no-repeat center center fixed; /* Fundo */
+    background-size: cover; /* Faz a imagem cobrir todo o body */
+  }
+  
+  /* Estilização da div centralizada */
+  .centralizada {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(240, 248, 255, 0.8); /* Fundo translúcido */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; /* Limita a largura da div */
+  }
+  
+  /* Texto acima do formulário */
+  .centralizada p {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .centralizada h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilização da logo */
+  .logo {
+    width: 200px; /* Largura da logo */
+    height: auto; /* Mantém a proporção */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    display: block; /* Garante que a logo seja tratada como bloco */
+    object-fit: contain;
+    padding: 0;
+    border: none;
+  }
+  
+  h1 {
+    margin-top: 10px; /* Ajuste do espaçamento entre a logo e o texto */
+    text-align: center; /* Certifica que o texto está centralizado */
+  }
+  
+  /* Estilização do formulário */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Estilização do botão */
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #9C27B0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #8E24AA;
+  }
